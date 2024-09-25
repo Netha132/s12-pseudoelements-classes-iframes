@@ -1,0 +1,117 @@
+body{
+    background-color: #f1c62c;
+}
+div{
+    background-color: #ee6a05;
+    color: #fff;
+    box-shadow: 10px 10px 15px #000;
+}
+#narutoPic{
+   width: 200px;
+   filter: drop-shadow(10px 10px 10px);
+   margin-top: 20px;
+}
+.narutoName{
+    font-size: 2rem;
+    padding-left: 20px;
+}
+.narutoName::first-letter{
+    font-size: 3rem;
+    color: brown;
+}
+.narutoDesc{
+    display: inline-block;
+    width: 1000px;
+    height: 300px;
+    overflow: auto;
+    text-align: justify;
+}
+#narutoPic:hover{
+    filter: drop-shadow(10px 10px 10px #eeea05);
+}
+nav a{
+    margin-left: 30px;
+    background-color: #ee6a05;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: aliceblue;
+}
+nav a:hover{
+    background-color: #c13c03;
+    box-shadow: 4px 4px 15px black;
+}
+nav a:active{
+    background-color: #ee0505;
+}
+
+#sasukePic{
+    width: 200px;
+    filter: drop-shadow(10px 10px 10px #fff);
+}
+.sasukeDesc{
+    display: inline-block;
+    width: 1000px;
+    height: 300px;
+    overflow: auto;
+    text-align: justify;
+}
+#sasukeName{
+    font-size: 2rem;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+#sasukeName::first-letter{
+    color: #2661b2;
+    font-size: 2.5rem;
+}
+#sasukePic:hover{
+    filter: drop-shadow(10px 10px 10px #981920);
+}
+.sasukeDesc::selection{
+    background-color: #eeea05;
+    color: #000;
+}
+#kakashiPic{
+    width: 200px;
+    filter: drop-shadow(10px 10px 10px #fff);
+}
+#kakashiName{
+    font-size: 2rem;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#kakashiName::first-letter{
+    font-size: 3rem;
+    color: #025fb5;
+}
+#kakashiPic:hover{
+    filter: drop-shadow(10px 10px 10px #025fb5);
+}
+.kakashiDesc{
+    display: inline-block;
+    width: 1000px;
+    height: 300px;
+    overflow: auto;
+    text-align: justify;
+}
+h1{
+    background-color: #981920;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    text-shadow:6px 6px 10px #140e0b;
+    box-shadow: 10px 10px 15px #000;
+}
+iframe{
+    margin: 20px;
+    width: 1200px;
+    height:250px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px #000;
+}
+marquee img{
+    width: 100px;
+}
